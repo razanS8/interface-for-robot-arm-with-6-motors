@@ -1,0 +1,65 @@
+<!DOCTYPE html >
+<html>
+<head>
+<title> CONTROL PANEL FOR ROBOT ARM</title>
+<link rel="stylesheet"  href="style.css">
+ </head>
+<!--BODY START -->
+<body>
+	<!-- TITLE -->
+	<div id="page"> 
+	<div id="nheader"> 
+	CONTROL PANEL FOR ROBOT ARM 
+	</div>
+	<div class="rangeContainer">
+	 <form action="index.php" method = "POST"> 
+		<div class = "m1"> 
+		<label> motor 1</label>
+		<input type="range" min="0" max="180" value="90" class="slider" id="myRange1" name="v1">
+		<p> Value:<span id ="value1" ></span></p>
+		</div>
+		
+		<div class = "m2"> 
+		<label> motor 2</label>
+		<input type="range" min="0" max="180" value="90" class="slider" id="myRange2" name="v2">
+		<p>Value: <span id ="value2"> </span></p>
+		</div>
+		
+		<div class = "m3"> 
+		<label> motor 3</label>
+		<input type="range" min="0" max="180" value="90" class="slider" id="myRange3" name="v3">
+		<p>Value: <span id = "value3"> </span></p>
+		</div>
+		
+		<div class = "m4"> 
+		<label> motor 4</label>
+		<input type="range" min="0" max="180" value="90" class="slider" id="myRange4" name="v4">
+		<p>Value: <span id = "value4"> </span></p>
+		</div>
+		
+		<div class = "m5">
+		<label> motor 5</label>		
+		<input type="range" min="0" max="180" value="90" class="slider" id="myRange5" name="v5">
+		<p>Value: <span id = "value5"> </span></p>
+		</div>
+		
+		<div class = "m6">
+		<label> motor 6</label>		
+		<input type="range" min="0" max="180" value="90" class="slider" id="myRange6" name="v6">
+		<p>Value: <span id = "value6"> </span></p>
+		</div>
+		
+		<button type="submit" id="button1" value ="ON" name= "on"> ON </button>
+		<button type="submit" id="button2" value ="save" name = "save"> save </button>
+		
+	</div>
+	</div>
+<!--BODY END -->
+
+
+</form>
+
+</body>
+<script src="main.js"></script>
+
+</html>
